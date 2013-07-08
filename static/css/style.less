@@ -345,9 +345,29 @@ section#posts {
 		border-top: @light-grey 1px solid;
 	}
 
-	article {
-		margin: 0;
+	.donations, article {
 		padding: 40px 40px 40px 50px;
+		margin: 0;
+	}
+
+	.donations {
+		padding-bottom: 20px;
+		padding-top: 20px;
+		background-color: #eee;
+		color: #333;
+		font-style: italic;
+		line-height: 1.5em;
+
+		transition: color 200ms;
+		-o-transition: color 200ms;
+		-moz-transition: color 200ms;
+		-webkit-transition: color 200ms;
+	}
+	.donations:hover {
+		color: #bbb;
+	}
+
+	article {
 		position: relative;
 		font-size: 15px;
 		line-height: 25px;
